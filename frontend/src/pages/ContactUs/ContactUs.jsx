@@ -144,9 +144,9 @@ const ContactUs = () => {
 
                         <motion.div initial={{ y: 10 }} animate={{ y: 0 }}>
                             <div className="flex gap-2">
-                                <select
+                   <select
                                     name="countryCode"
-                                    className="w-1/3 p-3 bg-blue-900/30 backdrop-blur-sm rounded-xl border border-blue-400/30 text-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                    className="w-2/3 md:w-1/3 p-3 bg-blue-900/30 backdrop-blur-sm rounded-xl border border-blue-400/30 text-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
                                     required
                                 >
                                     {countries
