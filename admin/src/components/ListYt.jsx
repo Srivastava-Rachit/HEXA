@@ -12,7 +12,7 @@ const ListYt = () => {
     const [selectedFilter, setSelectedFilter] = useState('All');
     const [filters] = useState(['All', 'React', 'JavaScript', 'Full Stack', '3D Website', 'Apps']);
 
-    const url = 'http://localhost:4000';
+    const url = 'https://hexa-backend-9y0v.onrender.com';
 
     const projectTypeToTag = {
         react: 'React',
