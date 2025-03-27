@@ -177,6 +177,7 @@ const YtAdd = () => {
                 <option value="react">React Project</option>
                 <option value="fullstack">Full Stack Project</option>
                 <option value="js">JavaScript</option>
+                 <option value="htmlcss">HTML/CSS</option>
                 <option value="apps">Mobile Apps</option>
                 <option value="3d">3D Websites</option>
                 <option value="others">Others</option>
