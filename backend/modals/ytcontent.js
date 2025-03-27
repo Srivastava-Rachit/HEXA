@@ -17,7 +17,7 @@ const ytcontentSchema = new mongoose.Schema({
     projectType: {
         type: String,
         required: true,
-        enum: ['react', 'fullstack', 'js', 'apps', '3d', 'others'],
+        enum: ['react', 'fullstack', 'js', 'htmlcss', 'apps', '3d', 'others'],
         default: 'react'
     },
     youtubeLink: { type: String, required: true },
