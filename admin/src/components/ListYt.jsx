@@ -10,13 +10,14 @@ const ListYt = () => {
     const [currentPage, setCurrentPage] = useState(1);
     const [itemsPerPage] = useState(9);
     const [selectedFilter, setSelectedFilter] = useState('All');
-    const [filters] = useState(['All', 'React', 'JavaScript', 'Full Stack', '3D Website', 'Apps']);
+    const [filters] = useState(['All', 'React', 'JavaScript', 'HTMLCSS', 'Full Stack', '3D Website', 'Apps']);
 
     const url = 'https://hexa-backend-9y0v.onrender.com';
 
     const projectTypeToTag = {
         react: 'React',
         js: 'JavaScript',
+        htmlcss: 'HTMLCSS',
         fullstack: 'Full Stack',
         '3d': '3D Website',
         apps: 'Apps'
