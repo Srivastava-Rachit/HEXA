@@ -18,7 +18,7 @@ const YtAdd = () => {
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
 
-  const url = 'http://localhost:4000'
+  const url = 'https://hexa-backend-9y0v.onrender.com'
 
   const validateURL = (url, type) => {
     let pattern;

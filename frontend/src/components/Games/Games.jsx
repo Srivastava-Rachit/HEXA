@@ -26,7 +26,7 @@ export default function GamePortal() {
   const [activeGame, setActiveGame] = useState(null)
   const [searchQuery, setSearchQuery] = useState("")
 
-  const url = "http://localhost:4000"
+  const url = "https://hexa-backend-9y0v.onrender.com"
 
   useEffect(() => {
     const updateCursor = (e) => {

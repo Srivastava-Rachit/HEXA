@@ -9,7 +9,7 @@ const Login = ({ setIsLoggedIn }) => {
     const [loginError, setLoginError] = useState('');  // For displaying login error messages
     const navigate = useNavigate();
 
-    const url = 'http://localhost:4000'
+    const url = 'https://hexa-backend-9y0v.onrender.com'
 
     // Handle input changes (for both text fields and checkbox)
     const handleChange = (e) => {

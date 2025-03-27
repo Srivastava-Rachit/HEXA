@@ -14,7 +14,7 @@ const YtProjects = () => {
     const [selectedFilters, setSelectedFilters] = useState([]);
     const [filters] = useState(['React', 'JavaScript', 'Full Stack', '3D Website', 'Apps', 'Free', 'Paid']);
 
-    const url = 'http://localhost:4000';
+    const url = 'https://hexa-backend-9y0v.onrender.com';
 
     const projectTypeToTag = {
         react: 'React',
