@@ -195,17 +195,19 @@ const ContactUs = () => {
                         </motion.div>
 
                         <motion.div initial={{ y: 10 }} animate={{ y: 0 }}>
-                            <select
-                                name="services"
-                                className="w-full p-3 bg-blue-900/30 backdrop-blur-sm rounded-xl border border-blue-400/30 text-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                                required
-                            >
-                                <option value="">Select Service</option>
-                                <option value="Web Development">Web Development</option>
-                                <option value="App Development">App Development</option>
-                                <option value="Video Editing">Video Editing</option>
-                                <option value="UI/UX">UI/UX Design</option>
-                            </select>
+                      <select
+  name="services"
+  className="w-full p-3 bg-blue-900/30 backdrop-blur-sm rounded-xl border border-blue-400/30 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+  required
+>
+  <option value="" className="bg-gray-900 text-white">Select Service</option>
+  <option value="Web Development" className="bg-gray-900 text-white">Web Development</option>
+  <option value="App Development" className="bg-gray-900 text-white">App Development</option>
+  <option value="Video Editing" className="bg-gray-900 text-white">Video Editing</option>
+  <option value="UI/UX" className="bg-gray-900 text-white">UI/UX Design</option>
+  <option value="Hosting & Domain" className="bg-gray-900 text-white">Hosting & Domain</option>
+  <option value="Logo Design" className="bg-gray-900 text-white">Logo Design</option>
+</select>
                         </motion.div>
 
                         <motion.div initial={{ y: 10 }} animate={{ y: 0 }}>
