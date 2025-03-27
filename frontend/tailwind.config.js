@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
-import daisyui from "daisyui"
-module.exports = {
+import daisyui from "daisyui";
+import tailwindcssAnimate from "tailwindcss-animate";
+
+export default {
   darkMode: ["class"],
   content: [
     "./pages/**/*.{js,jsx}",
@@ -84,9 +86,9 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
-        sans: ['DM Sans', 'sans-serif'],
+        sans: ["DM Sans", "sans-serif"],
       },
     },
   },
-  plugins: [daisyui, require("tailwindcss-animate")],
-}
+  plugins: [daisyui, tailwindcssAnimate],
+};
