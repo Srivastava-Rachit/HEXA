@@ -12,13 +12,14 @@ const YtProjects = () => {
     const [itemsPerPage] = useState(9);
     const [totalPages, setTotalPages] = useState(0);
     const [selectedFilters, setSelectedFilters] = useState([]);
-    const [filters] = useState(['React', 'JavaScript', 'Full Stack', '3D Website', 'Apps', 'Free', 'Paid']);
+    const [filters] = useState(['React', 'JavaScript','HTMLCSS', 'Full Stack', '3D Website', 'Apps', 'Free', 'Paid']);
 
     const url = 'https://hexa-backend-9y0v.onrender.com';
 
     const projectTypeToTag = {
         react: 'React',
         js: 'JavaScript',
+        htmlcss: 'HTMLCSS',
         fullstack: 'Full Stack',
         '3d': '3D Website',
         apps: 'Apps'
