@@ -50,7 +50,7 @@ function ElegantShape({ className, delay = 0, width = 400, height = 100, rotate 
 
 const Footer = () => {
   const socialLinks = [
-    { icon: <Twitter className="w-5 h-5" />, url: "https://x.com/home", color: "hover:text-[#1877F9]" },
+    { icon: <Twitter className="w-5 h-5" />, url: "https://x.com/HexagonDService?t=Vv5ReZAIbXONqkq_O0ksWQ&s=09", color: "hover:text-[#1877F9]" },
     { icon: <Instagram className="w-5 h-5" />, url: "https://www.instagram.com/hexagondigitalservices", color: "hover:text-[#E1306C]" },
     { icon: <Linkedin className="w-5 h-5" />, url: "https://www.linkedin.com/company/hexagondigtial-services/", color: "hover:text-[#0A66C2]" },
     { icon: <Youtube className="w-5 h-5" />, url: "https://www.youtube.com/@HexagonDigitalServices", color: "hover:text-[#FF0000]" },
