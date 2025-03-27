@@ -17,7 +17,7 @@ const YtGames = () => {
     const [message, setMessage] = useState('');
 
     // Change this URL to your backend endpoint
-    const url = 'http://localhost:4000';
+    const url = 'https://hexa-backend-9y0v.onrender.com';
 
     const validateURL = (url, type) => {
         let pattern;
